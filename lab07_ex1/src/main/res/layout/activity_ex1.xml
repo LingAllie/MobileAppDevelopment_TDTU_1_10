@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dip"
+    android:orientation="vertical"
+    tools:context=".Ex1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dip"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Số lần mở app"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/tvLaunch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="96sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Số lần tạm ngưng"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/tvPause"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="96sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dip"
+        android:text="Chọn màu chữ"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="96dip"
+            android:layout_weight="1"
+            android:onClick="changeTextColor"
+            android:background="#4CAF50"/>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="96dip"
+            android:layout_weight="1"
+            android:onClick="changeTextColor"
+            android:background="#FF9800"/>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="96dip"
+            android:onClick="changeTextColor"
+            android:layout_weight="1"
+            android:background="#9C27B0"/>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="96dip"
+            android:layout_weight="1"
+            android:onClick="changeTextColor"
+            android:background="#2196F3"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="96dip"
+            android:layout_weight="1"
+            android:onClick="changeTextColor"
+            android:background="#3F51B5"/>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="96dip"
+            android:layout_weight="1"
+            android:onClick="changeTextColor"
+            android:background="#0F7C72"/>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="96dip"
+            android:layout_weight="1"
+            android:onClick="changeTextColor"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="96dip"
+            android:layout_weight="1"
+            android:onClick="changeTextColor"
+            android:background="#FFF309"/>
+    </LinearLayout>
+
+
+</LinearLayout>

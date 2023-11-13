@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="36dp"
+    tools:context=".Ex2Activity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:text="Default Button"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:text="Use color make background"
+        android:backgroundTint="@color/pink"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:text="ShapeDrawable with solid color"
+        android:background="@drawable/button3"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:text="ShapeDrawable with solid color + radius"
+        android:background="@drawable/button4"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:text="ShapeDrawable with Gradient + Radius"
+        android:background="@drawable/button5"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:text="ShapeDrawable with Stroke + Radius"
+        android:background="@drawable/button6"
+        android:textAllCaps="false"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:text="StateListDrawable Button"
+        android:background="@drawable/button7"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:text="Ripple effect using backgroundTint"
+        android:backgroundTint="#4CAF50"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:text="RippleDrawable Button"
+        android:background="@drawable/button8"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">lab02_ex1</string>
+
+    <string name="lbl_num1">Number 1</string>
+    <string name="lbl_num2">Number 2</string>
+
+    <string name="lbl_op">Operation</string>
+    <string name="lbl_add">Add</string>
+    <string name="lbl_sub">Sub</string>
+    <string name="lbl_mul">Mul</string>
+    <string name="lbl_div">Div</string>
+
+    <string name="lbl_calc">Calculate</string>
+    <string name="lbl_result">Result</string>
+
+    <string name="lbl_input">Input two numbers</string>
+</resources>

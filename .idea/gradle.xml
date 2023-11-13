@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="jbr-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/lab01_BTVN_ex1" />
+            <option value="$PROJECT_DIR$/lab01_btvn_ex2" />
+            <option value="$PROJECT_DIR$/lab01_e1" />
+            <option value="$PROJECT_DIR$/lab01_ex1" />
+            <option value="$PROJECT_DIR$/lab01_ex2" />
+            <option value="$PROJECT_DIR$/lab01_ex3" />
+            <option value="$PROJECT_DIR$/lab02_ex1-4" />
+            <option value="$PROJECT_DIR$/lab02_ex2" />
+            <option value="$PROJECT_DIR$/lab02_ex3" />
+            <option value="$PROJECT_DIR$/lab02_ex5" />
+            <option value="$PROJECT_DIR$/lab02_ex6" />
+            <option value="$PROJECT_DIR$/lab02_ex7_constraintLayout" />
+            <option value="$PROJECT_DIR$/lab02_ex7_constraintlayout" />
+            <option value="$PROJECT_DIR$/lab02_ex7_relativelayout" />
+            <option value="$PROJECT_DIR$/lab03_ex1" />
+            <option value="$PROJECT_DIR$/lab03_ex2" />
+            <option value="$PROJECT_DIR$/lab03_ex3" />
+            <option value="$PROJECT_DIR$/lab04_ex1" />
+            <option value="$PROJECT_DIR$/lab04_ex2" />
+            <option value="$PROJECT_DIR$/lab04_ex3" />
+            <option value="$PROJECT_DIR$/lab05_ex1" />
+            <option value="$PROJECT_DIR$/lab05_ex1_lmp" />
+            <option value="$PROJECT_DIR$/lab05_ex2" />
+            <option value="$PROJECT_DIR$/lab05_ex3" />
+            <option value="$PROJECT_DIR$/lab05_ex4" />
+            <option value="$PROJECT_DIR$/lab05_ex5" />
+            <option value="$PROJECT_DIR$/lab05ex4" />
+            <option value="$PROJECT_DIR$/lab06_ex1" />
+            <option value="$PROJECT_DIR$/lab06_ex1_option_menu" />
+            <option value="$PROJECT_DIR$/lab06_ex2" />
+            <option value="$PROJECT_DIR$/lab07_ex1" />
+            <option value="$PROJECT_DIR$/lab07_ex2" />
+            <option value="$PROJECT_DIR$/lab07_ex3" />
+            <option value="$PROJECT_DIR$/lab08_ex1" />
+            <option value="$PROJECT_DIR$/lab08_ex12" />
+            <option value="$PROJECT_DIR$/lab08_ex1_3" />
+            <option value="$PROJECT_DIR$/lab08_ex2" />
+            <option value="$PROJECT_DIR$/lab08_ex3" />
+            <option value="$PROJECT_DIR$/lab09_ex1" />
+            <option value="$PROJECT_DIR$/lab09_ex2" />
+            <option value="$PROJECT_DIR$/lab09_ex3" />
+            <option value="$PROJECT_DIR$/lab09_ex4" />
+            <option value="$PROJECT_DIR$/lab09_ex5" />
+            <option value="$PROJECT_DIR$/lab10_ex1" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

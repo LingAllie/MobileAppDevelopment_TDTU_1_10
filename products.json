@@ -1,0 +1,52 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Product A",
+        "price": "123.99",
+        "description": "Like new"
+      },
+      {
+        "id": 2,
+        "name": "Economy Product Y",
+        "price": "29.99",
+        "description": "Fair condition, discounted"
+      },
+      {
+        "id": 3,
+        "name": "Tech Pro",
+        "price": "149.50",
+        "description": "Gently used, functional as new"
+      },
+      {
+        "id": 5,
+        "name": "Product Galaxy",
+        "price": "79.99",
+        "description": "New in the box, limited edition"
+      },
+      {
+        "id": 6,
+        "name": "Superior Product X",
+        "price": "299.00",
+        "description": "Used, in excellent condition"
+      },
+      {
+        "id": 7,
+        "name": "Fantastic Product",
+        "price": "199.99",
+        "description": "Refurbished, great value deal"
+      },
+      {
+        "email": "thaymanhdepzai@gmail.com",
+        "name": "ABC Product",
+        "price": "88.00",
+        "description": "Slightly used, good condition"
+      },
+      {
+        "id": 10,
+        "name": "Product 123",
+        "price": "45.67",
+        "description": "Brand new and sealed"
+      }
+    ]
+  }

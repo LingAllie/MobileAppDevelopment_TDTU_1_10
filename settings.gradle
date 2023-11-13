@@ -1,0 +1,60 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "My Application"
+include ':lab01_ex1'
+include ':lab01_ex3'
+include ':lab01_BTVN_ex1'
+include ':lab01_ex2'
+include ':lab01_btvn_ex2'
+include ':lab01_e1'
+include ':lab02_ex1-4'
+include ':lab02_ex2'
+include ':lab02_ex7_constraintLayout'
+include ':lab02_ex7_relativelayout'
+include ':lab02_ex7_constraintlayout'
+include ':lab02_ex3'
+include ':lab02_ex6'
+include ':lab02_ex5'
+include ':lab04_ex1'
+include ':lab03_ex1'
+include ':lab03_ex2'
+include ':lab03_ex3'
+include ':lab04_ex3'
+include ':lab04_ex2'
+include ':lab05_ex2'
+include ':lab05_ex1_lmp'
+include ':lab05_ex3'
+include ':lab05_ex1'
+include ':lab05ex4'
+include ':lab05_ex4'
+include ':lab05_ex5'
+include ':lab06_ex1'
+include ':lab06_ex1_option_menu'
+include ':lab06_ex2'
+include ':lab07_ex1'
+include ':lab07_ex2'
+include ':lab07_ex3'
+include ':lab08_ex1'
+include ':lab09_ex1'
+include ':lab09_ex2'
+include ':lab10_ex1'
+include ':lab08_ex3'
+include ':lab08_ex12'
+include ':lab08_ex1_3'
+include ':lab08_ex2'
+include ':lab09_ex3'
+include ':lab09_ex4'
+include ':lab09_ex5'

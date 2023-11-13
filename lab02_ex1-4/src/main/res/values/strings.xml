@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">lab02_ex1</string>
+
+    <string name="lbl_num1">Số hạng 1</string>
+    <string name="lbl_num2">Số hạng 2</string>
+
+    <string name="lbl_op">Phép tính</string>
+    <string name="lbl_add">Cộng</string>
+    <string name="lbl_sub">Trừ</string>
+    <string name="lbl_mul">Nhân</string>
+    <string name="lbl_div">Chia</string>
+
+    <string name="lbl_calc">Tính</string>
+    <string name="lbl_result">Kết quả</string>
+    <string name="lbl_input">Nhập hai số hạng</string>
+</resources>

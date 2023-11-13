@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!--    line1-->
+        <ImageView
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/txtFullname"
+            android:hint="Full name"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"/>
+
+        <!--    line2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_gravity="center_vertical"
+                android:text="Gender"
+                android:textSize="19.5sp"
+                android:textColor="#9A9A9A"/>
+
+            <RadioGroup
+                android:id="@+id/rgGender"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:text="Male"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/rbFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.05dp"
+            android:background="#9A9A9A"/>
+
+        <!--    line3-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="45dp"
+                android:layout_gravity="center_vertical"
+                android:text="Like"
+                android:textSize="19.5sp"
+                android:textColor="#9A9A9A"/>
+
+            <RadioGroup
+                android:id="@+id/rgLike"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbLmale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:text="Male"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/rbLfemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:text="Female"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/rbLboth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Both"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.05dp"
+            android:background="#9A9A9A"/>
+
+        <!--    line4-->
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="Email"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress"/>
+
+        <!--    line5-->
+        <EditText
+            android:id="@+id/txtAddress"
+            android:hint="Address"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--    line6-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:text="Hobbies"
+                android:textSize="19.5sp"
+                android:textColor="#9A9A9A" />
+
+            <CheckBox
+                android:id="@+id/chbSoccer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soccer"
+                android:layout_marginEnd="6dp"/>
+
+            <CheckBox
+                android:id="@+id/chbSwim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swimming"
+                android:layout_marginEnd="6dp"/>
+
+            <CheckBox
+                android:id="@+id/chbJogging"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jogging"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.05dp"
+            android:background="#9A9A9A"/>
+
+        <!--    line7-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="14dp"
+                android:text="Swim ability"
+                android:textSize="19.5sp"
+                android:textColor="#9A9A9A" />
+
+            <RatingBar
+                android:id="@+id/rbStar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stepSize="1"
+                android:numStars="5"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.05dp"
+            android:background="#9A9A9A"/>
+
+        <!--    line8-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:text="TOEIC Score"
+                android:textSize="19.5sp"
+                android:textColor="#9A9A9A" />
+
+            <SeekBar
+                android:id="@+id/sbToeic"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:max="198"
+                android:progress="5"
+                android:thumbTint="@color/red"
+                android:progressTint="@color/red"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.05dp"
+            android:background="#9A9A9A"/>
+
+        <!--    line9-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:text="Receive notifications via email"
+                android:textSize="19.5sp"
+                android:textColor="#9A9A9A" />
+
+            <Switch
+                android:id="@+id/sReceive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:trackTint="@color/red"
+                android:thumbTint="@color/red"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.05dp"
+            android:background="#9A9A9A"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:text="Save information" />
+
+    </LinearLayout>
+
+</ScrollView>
