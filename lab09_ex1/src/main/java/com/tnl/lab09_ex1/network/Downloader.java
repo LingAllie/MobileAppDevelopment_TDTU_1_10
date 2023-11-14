@@ -1,5 +1,7 @@
 package com.tnl.lab09_ex1.network;
 
+import android.util.Log;
+
 import com.tnl.lab09_ex1.recycler.DownloadFile;
 
 import java.io.File;
@@ -62,12 +64,20 @@ public class Downloader {
 
             FileOutputStream stream = new FileOutputStream(
                     new File(parent, fileName));
-
+            int count = 0;
             while ((size = is.read(buffer)) > 0) {
                 stream.write(buffer, 0, size);
                 downloaded += size;
 
                 int percentage = (int) (downloaded * 100.0 / fileSize);
+                if (percentage % 5 == 0) {
+                    count++;
+                    if (count == 1) {
+                        Log.e("TAG", "File " + file.getName() + " is downloading " + percentage + "%");
+                    }
+                } else {
+                    count = 0;
+                }
                 file.setProgress(percentage);
 
                 if (callback != null) {
