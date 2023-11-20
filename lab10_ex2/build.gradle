@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.tnl.lab09_ex1'
+    namespace 'com.tnl.lab10_ex2'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.tnl.lab09_ex1"
+        applicationId "com.tnl.lab10_ex2"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -37,8 +37,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-    def room_version = "2.5.0"
-
-    implementation "androidx.room:room-runtime:$room_version"
-    annotationProcessor "androidx.room:room-compiler:$room_version"
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
 }

@@ -106,9 +106,12 @@ public class Ex2Activity extends AppCompatActivity
             player.setDataSource(this, uri);
             player.prepareAsync();
         } catch (IOException e) {
+            log("Error playing song: " + e.getMessage());
             e.printStackTrace();
+            // Handle the exception more gracefully, e.g., show a message to the user
         }
     }
+
 
     @Override
     public void onPrepared(MediaPlayer mp) {

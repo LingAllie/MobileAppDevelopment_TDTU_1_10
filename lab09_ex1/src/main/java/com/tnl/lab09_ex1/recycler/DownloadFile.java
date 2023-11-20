@@ -174,7 +174,7 @@ public class DownloadFile {
         file.setIcon(ICONS[random.nextInt(ICONS.length)]);
 
         int progress = random.nextInt(100);
-        if (id %3 == 0) {
+        if (id % 3 == 0) {
             file.setProgress(random.nextInt(progress));
         }else {
             if (progress > 40) {
