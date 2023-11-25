@@ -5,7 +5,6 @@ import androidx.preference.PreferenceManager;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.util.Log;
 
 public class Ex3Activity extends AppCompatActivity {
@@ -22,10 +21,10 @@ public class Ex3Activity extends AppCompatActivity {
 
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
 
-        Log.e("TAG", "Wifi" + pref.getBoolean("wifi", true));
-        Log.e("TAG", "Sound" + pref.getBoolean("sound", true));
-        Log.e("TAG", "Email" + pref.getBoolean("email", true));
-        Log.e("TAG", "Song" + pref.getString("song", null));
+        Log.e("TAG", "Wifi " + pref.getBoolean("wifi", true));
+        Log.e("TAG", "Sound " + pref.getBoolean("sound", true));
+        Log.e("TAG", "Email " + pref.getString("email", null));
+        Log.e("TAG", "Song " + pref.getString("song", null));
 
     }
 

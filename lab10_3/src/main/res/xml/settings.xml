@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="BASIC">
+
+        <SwitchPreferenceCompat
+            android:key="wifi"
+            android:title="Wifi"
+            android:summaryOn="Wifi is on"
+            android:summaryOff="Wifi is off"
+            android:icon="@drawable/wifi"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:key="sound"
+            android:title="Sound"
+            android:summaryOn="Sound is on"
+            android:summaryOff="Sound if muted"
+            android:icon="@drawable/sound"
+            android:defaultValue="false"/>
+
+        <EditTextPreference
+            android:key="email"
+            android:title="Email"
+            android:icon="@drawable/email"
+            android:summary="Enter your email to receive news"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="ADVANCED">
+
+        <ListPreference
+            android:key="song"
+            android:title="Favorite song"
+            android:summary="Select your favorite song"
+            android:entries="@array/songs"
+            android:icon="@drawable/songs"
+            android:entryValues="@array/song_value"/>
+
+        <Preference
+            android:key="view"
+            android:title="View result"
+            android:icon="@drawable/result"
+            android:summary="Click here to view result"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

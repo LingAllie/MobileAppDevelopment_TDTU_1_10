@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">lab10_3</string>
+    
+    <string-array name="songs">
+
+        <item>Quoc ca</item>
+        <item>Doi ca</item>
+        <item>Cung nhau ta di len</item>
+        <item>Bui phan</item>
+    </string-array>
+
+    <string-array name="song_value">
+
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
